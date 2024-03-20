@@ -7,6 +7,7 @@ public class Scene04_Move : MonoBehaviour
 
     private bool isGrounded = false;
 
+    float impulse = 11.0f;
     private Rigidbody2D rg2D;
 
     private void Start()
@@ -18,6 +19,7 @@ public class Scene04_Move : MonoBehaviour
     {
         Move();
         Jump();
+        
     }
 
     private void Move()
@@ -31,15 +33,24 @@ public class Scene04_Move : MonoBehaviour
 
     private void Jump()
     {
+        if (Input.GetButtonDown("Jump") && isGrounded)
+        {
 
+            rg2D.AddForce(transform.up * impulse, ForceMode2D.Impulse);
+
+        }
     }
-
     private void OnCollisionEnter2D(Collision2D collision)
-    {
-        this.isGrounded = true;
+    { 
+    
+
+                this.isGrounded = true;
+
+            
     }
-    private void OnCollisionExit2D(Collision2D collision)
+    private void OnCollisionExit2D(Collision2D collision) ///funciona el salto en el suelo
     {
         this.isGrounded = false;
+
     }
 }
