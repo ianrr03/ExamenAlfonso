@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Bolas
   - Ground
+  - SpheresGreens
+  - SpheresOranges
   layers:
   - Default
   - TransparentFX
