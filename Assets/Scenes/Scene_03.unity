@@ -155,6 +155,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 230fb4a0aaef31343a5059c1867d4c61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkPointSpriteRenderer: {fileID: 223559132}
+  colorOriginal: {r: 1, g: 1, b: 1, a: 1}
+  colorAzul: {r: 0, g: 0, b: 1, a: 1}
 --- !u!58 &223559131
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -510,6 +513,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 230fb4a0aaef31343a5059c1867d4c61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkPointSpriteRenderer: {fileID: 626696139}
+  colorOriginal: {r: 1, g: 1, b: 1, a: 1}
+  colorAzul: {r: 0, g: 0, b: 1, a: 1}
 --- !u!58 &626696138
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -671,6 +677,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 230fb4a0aaef31343a5059c1867d4c61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkPointSpriteRenderer: {fileID: 766333243}
+  colorOriginal: {r: 1, g: 1, b: 1, a: 1}
+  colorAzul: {r: 0, g: 0, b: 1, a: 1}
 --- !u!58 &766333242
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -832,6 +841,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 230fb4a0aaef31343a5059c1867d4c61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkPointSpriteRenderer: {fileID: 1610571721}
+  colorOriginal: {r: 1, g: 1, b: 1, a: 1}
+  colorAzul: {r: 0, g: 0, b: 1, a: 1}
 --- !u!58 &1610571720
 CircleCollider2D:
   m_ObjectHideFlags: 0
